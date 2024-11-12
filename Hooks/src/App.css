@@ -7,3 +7,67 @@ input{
     padding: 10px;
     margin-top: 30px;
 }
+/* aos animation
+div{
+    height: 200px;
+    width: 200px;
+    background-color: red;
+    text-align: center;
+} */
+
+/* ballmovement */
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  background-color: #f0f0f0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .ball {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6347;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+} */
+.ball {
+  width: 100px;
+  height: 100px;
+  background-color: #ff6347; /* Initial background color */
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+   transition: top 0.1s ease, left 0.2s ease, background-color 0.5s ease;
+  animation: backgroundChange 5s infinite; /* Apply animation */
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-color: #ff6347; /* Start color */
+  }
+  25%{
+    background-color: rgb(144, 232, 232);
+  }
+  50% {
+    background-color: #4682b4; /* Midway color */
+  }
+  100% {
+    background-color: #ff6347; /* End color */
+  }
+}
+
+.move-button {
+  background: transparent;
+  border: none;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
