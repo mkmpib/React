@@ -1,0 +1,370 @@
+
+
+.contain{
+    display: flex;
+    border: 2px solid black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 2px;
+    
+}
+
+.header{
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.bike1{
+    display: flex;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    
+}
+.bike1 img{
+    width: 400px;
+    margin: auto;
+}
+.box{
+    padding: 20px;
+}
+/* about */
+.vision{
+    display: flex;
+    margin: 20px;
+}
+.vision img{
+    width: 100%;
+    height: 400px;
+}
+.no{
+    font-size: xxx-large;
+    text-align: center;
+    margin: auto;
+}
+.para{
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+}
+@media screen and (max-width: 900px) {
+  .vision img{
+    width: 50%;
+  }
+  
+  }
+  @media screen and (max-width:1200px) {
+    .bike1{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+  }
+
+
+  /* navbaar */
+  .navbar-brand img{
+ height: 50px;
+ width: 150px;
+  }
+  .navbar-nav{
+ 
+    gap: 40px;
+  }
+  
+
+/* bikes */
+.box{
+    /* background-color: rgba(0, 0, 0, 0.716); */
+    background-image: linear-gradient(black,rgb(151, 190, 231));
+    color: azure;
+}
+.practicle li{
+    text-decoration: underline;
+    font-size: larger;
+color: rgba(243, 2, 50, 0.752);
+margin: 10px;
+}
+
+/* login page */
+/* background color bhi add karna hai */
+
+.body{
+background-image: url("https://img.freepik.com/free-vector/futuristic-background-design_23-2148503793.jpg");
+background-repeat: no-repeat;
+background-size:cover ;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: 20px;
+    background:transparent;
+    padding-bottom: 30px;
+    width: 600px;
+    
+
+}
+.header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 9px;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.text{
+    color: blueviolet;
+    font-size: 48px;
+    font-weight: 700;
+}
+.underLine{
+    width: 61px;
+    height: 6px;
+    background: #3c009d;
+    border-radius: 9px;
+}
+
+.inputs{
+    margin-top: 55px;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.input{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    width: 480px;
+    height: 80px;
+    background:#eaeaea;
+    border-radius: 6px;
+}
+.input img{
+    margin:0px 30px;
+}
+.input input{
+    height: 50px;
+    width: 400px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#797979;
+    font-size: 19px;
+}
+.forgot-password{
+    padding-left: 62px;
+    margin-top:27px;
+    color:#797979;
+    font-size:18px;
+}
+.forgot-password span{
+    color: #4c00b4;
+    cursor: pointer; 
+    /* hath bn ke aata hai iss se */
+}
+.submit-container{
+    display: flex;
+    gap: 30px;
+    margin: 60px auto;
+}
+.submit{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 220px;
+    height: 59px;
+    color: #fff;
+    background: #4c00b4;
+    border-radius: 50px;
+    font-size: 19px;
+    font-weight: 700;
+    cursor:pointer;
+}
+.gray{
+    background: #EAEAEA;
+    color: #676767;
+}
+/* bikes */
+
+/* .card img{
+   transition: 5s linear 1s;
+}
+.card img:hover{
+       transform: scale(1.2);
+} */
+
+
+/* home */
+
+.homeb{
+    background-color: rgba(230, 216, 230, 0.625);
+}
+.title{
+    text-align: center;
+    font-size: xxx-large;
+    font-weight: 600;
+    margin: 20px;
+    color: rgb(76, 131, 232);
+}
+.column{
+    display: flex;
+    /* background-color: #EAEAEA; */
+    border-radius: 20px;
+    border: 3px solid rgba(0, 0, 0, 0.716);
+    padding: 10px;
+    margin: 10px;
+}
+.col1{
+    width: 500px;
+    
+}
+.col2{
+    width: 900px;
+    padding: 20px;
+}
+.col2 h2{
+    color: red;
+    font-weight: 700;
+}
+.col2 button{
+margin-left: 50%;
+background-color: #676767;
+color: #eaeaea;
+border-radius: 10px;
+border: none;
+padding: 10px;
+}
+.col1 img{
+    width: 500px;
+}
+
+/* services */
+.head{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 680;
+    margin: 40px;
+    color: rgba(255, 0, 0, 0.645);
+}
+.col4{
+    padding: 30px;
+    cursor: pointer;
+    
+}
+
+/* about */
+.header1{
+    background-image: url("https://mcdonoughpartners.com/wp-content/uploads/2013/09/HERO-Garden-Factory_18-1680x945.jpg");
+    z-index: -1;
+     /* opacity: 0.5; */
+     /* filter: blur(8px); */
+    h2{
+        color: rgb(208, 26, 26);
+        padding: 20px;
+    }
+   
+}
+.pura{
+    margin: 30px;
+    position: relative;
+}
+.col5 h1{
+    color: red;
+    font-size: 300px;
+    font-weight: 700;
+    padding: 30px;
+}
+.col6 h1{
+    font-size: 70px;
+    padding: 20px;
+    text-align: left;
+
+}
+.col6 p{
+    font-size: 20px;
+    color: #030303;
+    padding: 20px;
+    text-align: left;
+}
+.dabba2{
+    background-color: #030303;
+    width: 1300px;
+ border-radius: 20px;
+ margin: 30px;
+ margin-left: 70px;
+}
+.col7 span{
+    color: red;
+}
+.col7{
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+}
+.col7 h1{
+    font-size: 40px;
+}
+.dabba3{
+    background-color: #dbd6d6;
+    width: 1400px;
+ border-radius: 10px;
+ color: #030303;
+ margin: 40px;
+ height: 350px;
+}
+.pura2{
+    
+    border-radius: 20px;
+}
+.pura2 h2{
+    color: red;
+    padding: 10px;
+    z-index: 2;
+}
+.col8{
+    padding: 40px;
+}
+.footer{
+    background-color: black;
+    color: #EAEAEA;
+    padding: 20px;
+}
+.pura3 h2  {
+    text-align: left;
+    margin: 10px;
+}
+.col9 ul li{
+    list-style: none;
+    text-align: left;
+    cursor: pointer;
+    padding: 5px;
+}
+.col9 h4{
+     text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    margin-left: 20px;
+
+}
+ @media screen and (max-width:1000px){
+    .pura .col5 h1{
+        font-size: 150px;
+    }
+    .pura .col6 h1{
+        font-size: 65px;
+        font-weight: 400;
+    }
+    .pura .col6 p{
+        color: rgb(237, 79, 139);
+        
+    }
+    .dabba2{
+        width: 660px;
+    }
+    .dabba3{
+        height: 420px;
+        width: 700px;
+        margin: 10px;
+       
+    }
+ 
+ }
