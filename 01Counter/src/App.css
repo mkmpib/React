@@ -1,0 +1,9 @@
+.cont{
+    text-align: center;
+    
+}
+button{
+    border: 2px double balck;
+    border-radius: 7px;
+    margin: 10px;
+}
